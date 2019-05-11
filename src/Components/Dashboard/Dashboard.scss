@@ -1,0 +1,126 @@
+#subMenuCompain li {
+	padding: 8px;
+}
+.sidebar1 a .active{
+	background-image: url(/assets/images/navbar/active-menu.png1);
+}
+.sidebar2{
+    // width: 284px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+}
+.sidebar{
+    border: solid 1px #eee;
+    width: 275;
+   
+}
+.app-wrapper2{
+	width: 100%;
+    margin-left: 16px;
+    margin-top: 35px
+}
+.app-wrapper5{
+	width: 100%;
+    margin-left: 16px;
+}
+.app-wrapper5 td{
+	width: 8.3%;
+}
+.app-wrapper{
+    padding-top: 36px !important;
+    position: fixed;
+    width: 85%
+}
+.containerWrap {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0px;
+}
+.app-wrapper6 {
+	width: 100%;
+    margin-left: 16px;
+}
+.app-wrapper6 td{
+	width: 10px;
+}
+.app-wrapper5 tr{
+	height: 30px;
+}
+.mainCompainAverage{
+	height: 30px;
+}
+.listItemSS td{
+    // border: solid 1px #ccc;
+    margin-left: 0px;
+}
+.listItemSS{
+    // border: solid 1px #ccc;
+    margin-left: 0px !important;
+}
+.currentDateSelected{
+    cursor: pointer;
+}
+.currentDate{
+    color: #fff;
+    // margin-left: 0.5px;
+}
+.start_0{
+    color: #ED8B8B;
+}
+.end_0.currentDateSelected{
+    color: #ED8B8B;
+}
+.start_1{
+    color: #0070BF;
+}
+.end_1.currentDateSelected{
+    color: #0070BF;
+}
+.start_2{
+    color: #AB62AB;
+}
+.end_2.currentDateSelected{
+    color: #AB62AB;
+}
+.start_a{
+    color: #666666;
+}
+.end_a.currentDateSelected{
+    color: #666666;
+}
+.app-wrapper5 td{
+    text-align: center;
+    vertical-align: middle;
+}
+.monItems{
+    font-size: 15px;
+}
+.sidebar-menu-sub.expandCollaps.active .app-wrapper2{
+    margin-top: 5px;
+}
+.sidebar-menu-block .app-wrapper2{
+    margin-top: 17px;
+}
+.title {
+    color: black;
+    font-size: 18px;
+  }
+  
+.card{
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+max-width: 300px;
+margin: auto;
+text-align: center;
+font-family: arial;
+}
+.imgCss{
+    width:100%
+}
+.err{
+    color: red;
+}
+.green{
+    color: green;
+}
+

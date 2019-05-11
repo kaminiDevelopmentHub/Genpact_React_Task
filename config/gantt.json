@@ -1,0 +1,154 @@
+{
+    "startDate": "2018-05-01",
+    "endDate": "2018-04-30",
+    "types": {
+        "social": {
+            "timeline": [
+                {
+                    "startDate": "2018-05-05",
+                    "endDate": "2018-12-28"
+                },
+                {
+                    "startDate": "2019-02-19",
+                    "endDate": "2019-04-14"
+                }
+            ],
+            "entities": [
+                {
+                    "Snapchat": [
+                        {
+                            "startDate": "2018-05-20",
+                            "endDate": "2018-11-15"
+                        },
+                        {
+                            "startDate": "2019-02-19",
+                            "endDate": "2019-04-14"
+                        }
+                    ],
+                    "Instagram": [
+                        {
+                            "startDate": "2018-06-10",
+                            "endDate": "2018-09-20"
+                        },
+                        {
+                            "startDate": "2019-03-25",
+                            "endDate": "2019-04-10"
+                        }
+                    ],
+                    "Youtube": [
+                        {
+                            "startDate": "2018-05-25",
+                            "endDate": "2018-08-15"
+                        },
+                        {
+                            "startDate": "2019-02-16",
+                            "endDate": "2019-04-05"
+                        }
+                    ],
+                    "Facebook": [
+                        {
+                            "startDate": "2018-07-12",
+                            "endDate": "2018-12-20"
+                        },
+                        {
+                            "startDate": "2019-01-16",
+                            "endDate": "2019-02-18"
+                        }
+                    ],
+                    "Twitter": [
+                        {
+                            "startDate": "2018-07-10",
+                            "endDate": "2019-02-5"
+                        },
+                        {
+                            "startDate": "2019-03-15",
+                            "endDate": "2019-04-30"
+                        }
+                    ]
+                }
+            ]
+        },
+        "search": {
+            "timeline": [
+                {
+                    "startDate": "2018-05-30",
+                    "endDate": "2018-07-01"
+                },
+                {
+                    "startDate": "2019-02-19",
+                    "endDate": "2019-03-30"
+                }
+            ],
+            "entities": [
+                {
+                    "Google": [
+                        {
+                            "startDate": "2018-05-20",
+                            "endDate": "2018-11-15"
+                        },
+                        {
+                            "startDate": "2019-02-19",
+                            "endDate": "2019-04-14"
+                        }
+                    ],
+                    "Yahoo": [
+                        {
+                            "startDate": "2018-06-10",
+                            "endDate": "2018-09-20"
+                        },
+                        {
+                            "startDate": "2019-03-25",
+                            "endDate": "2019-04-10"
+                        }
+                    ],
+                    "Baidu": [
+                        {
+                            "startDate": "2018-05-25",
+                            "endDate": "2018-08-15"
+                        },
+                        {
+                            "startDate": "2019-02-16",
+                            "endDate": "2019-04-05"
+                        }
+                    ]
+                }
+            ]
+        },
+        "display": {
+            "timeline": [
+                {
+                    "startDate": "2018-05-10",
+                    "endDate": "2018-08-20"
+                },
+                {
+                    "startDate": "2019-01-10",
+                    "endDate": "2019-03-20"
+                }
+            ],
+            "entities": [
+                {
+                    "Amazon": [
+                        {
+                            "startDate": "2018-05-25",
+                            "endDate": "2018-08-15"
+                        },
+                        {
+                            "startDate": "2019-02-16",
+                            "endDate": "2019-04-05"
+                        }
+                    ],
+                    "Flipkart": [
+                        {
+                            "startDate": "2018-07-12",
+                            "endDate": "2018-12-20"
+                        },
+                        {
+                            "startDate": "2019-01-16",
+                            "endDate": "2019-02-18"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

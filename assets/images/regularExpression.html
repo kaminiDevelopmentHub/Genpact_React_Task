@@ -1,0 +1,120 @@
+<!--<p>
+https://regex101.com/r/fZ9nA9/1
+https://www.infobyip.com/regularexpressioncalculator.php
+https://www.w3schools.com/js/js_regexp.asp
+https://regexone.com/
+
+n+	Matches any string that contains at least one n
+n*	Matches any string that contains zero or more occurrences of n
+n?	Matches any string that contains zero or one occurrences of n
+
+1) Allow only [0-9]
+2) Allow Decimal .
+3) only [+,-,*] operator 
+3) operator should not repeat ++ , -- ***
+4) + or - may be in start,  but * can not at start point
+
+	https://stackoverflow.com/questions/24234265/how-to-use-regular-expression-for-calculator-input-with-javascript
+
+	^\s*([-+]?)((\d+)((\.\d{1,3})?))(?:\s*([-+*])\s*((?:\s[-+])?((\d+)((\.\d{1,3})?)))\s*)+$
+	
+
+1) Allow only [0-9]
+3) only [+,-,*,/] operator 
+3) operator should not repeat ++ , -- ***
+4) + or - may be in start,  but *,/ can not at start point
+	
+	^\s*([-+]?)(\d+)(?:\s*([-+*\/])\s*((?:\s[-+])?\d+)\s*)+$
+
+Regular-Expression-Regex-to-allow-both-decimals-as-well-as-integers 
+	https://www.aspsnippets.com/Articles/Regular-Expression-Regex-to-allow-both-decimals-as-well-as-integers-and-Regex-for-allowing-any-decimal-number.aspx
+	((\d+)((\.\d{1,2})?))$   
+	</p>
+		
+	-->
+<p>Calculator validate:</p>
+<input type="text" id="myInput" value="5"> 
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    var str = document.getElementById("myInput").value;
+
+    var patt = /^\s*([-+]?)((\d+)((\.\d{1,3})?))(?:\s*([-+*])\s*((?:\s[-+])?((\d+)((\.\d{1,3})?)))\s*)+([-+*]?)$/;
+    var result = patt.test(str);
+    
+    document.getElementById("demo").innerHTML = result ;
+}
+</script>
+
+
+<p>Email validate:</p>
+<input type="text" id="myInput1" value="5"> 
+<button onclick="myFunction1()">Try it</button>
+
+<p id="demo1"></p>
+
+<script>
+function myFunction1() {
+    var str1 = 'shree@gmail.com';
+	var str = document.getElementById("myInput1").value;
+    //look for "Hello"
+    //var patt = /^\s*([-+]?)(\d+)(?:\s*([-+*\/])\s*((?:\s[-+])?\d+)\s*)+$/ ;
+    //var patt = /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+    var patt = /((\d+)((\.\d{1,2})?))$/;
+    var result = patt.test(str);
+
+   
+    document.getElementById("demo1").innerHTML = result ;
+}
+</script>
+<p>(only number and decimal Not character ) </br>
+((\d+)((\.\d{1,3})?))$  
+</p>
+
+<p>
+	(only number and decimal Not character , May be start with +- . But May be repeat like ++ , ---)</br>
+	^\s*([-+]?)((\d+)((\.\d{1,3})?))$   
+</p>
+
+<p>
+1) Allow only [0-9] </br>
+2) Allow Decimal . </br>
+3) only [+,-,*] operator  </br>
+4) At least one  [+,-,*] operator (because its calcullator)  </br>
+5) operator should not repeat ++ , -- *** </br>
+6) + or - may be in start,  but * can not at start point </br>
+7) <b>+-* may not be at last Position </b> </br>
+	^\s*([-+]?)((\d+)((\.\d{1,3})?))(?:\s*([-+*])\s*((?:\s[-+])?((\d+)((\.\d{1,3})?)))\s*)+$
+</p>
+
+<p>
+1) Allow only [0-9] </br>
+2) Allow Decimal . </br>
+3) only [+,-,*] operator  </br>
+4) At least one  [+,-,*] operator (because its calcullator)  </br>
+5) operator should not repeat ++ , -- *** </br>
+6) + or - may be in start,  but * can not at start point </br>
+7) <b>+-* may be at last Position </b> </br>
+^\s*([-+]?)((\d+)((\.\d{1,3})?))(?:\s*([-+*])\s*((?:\s[-+])?((\d+)((\.\d{1,3})?)))\s*)+([-+*]?)$
+</p>
+
+<p>
+	like +8+ , 8 , +8 , 8+ 
+^\s*([-+]?)((\d+)((\.\d{1,3})?))([-+*]?)$ 
+</p>
+
+<p>
+1) Allow only [0-9] </br>
+2) Allow Decimal . </br>
+3) only [+,-,*] operator  </br>
+4) Not required At least one  [+,-,*] operator (because its calcullator but may be simple number or decimal may be enter)  </br>
+5) operator should not repeat ++ , -- *** </br>
+6) + or - may be in start,  but * can not at start point </br>
+7) <b>+-* may be at last Position </b> </br>
+^\s*([-+]?)((\d+)((\.\d{1,3})?))(?:\s*([-+*])\s*((?:\s[-+])?((\d+)((\.\d{1,3})?)))\s*)*([-+*]?)$
+</p>
+
+
